@@ -18,11 +18,11 @@ function Work() {
             </div>
             <div data-aos="fade-up"  className="work-con-2">
                 <div className='workitem-2'>
-                    <img src="/myweatherapp.png" alt="" />
-                    <h1 className='work-heading1'>Weather App</h1>
-                    <p className='work-para1'>The Weather API Project is a modern web application that provides real-time weather information for any city around the world. The application fetches live weather data from a public weather API and displays details such as current temperature, humidity, wind speed, weather conditions, and location information.</p>
+                    <img src="/studentmanagementsystem.png" alt="" />
+                    <h1 className='work-heading1'>Student Management System App</h1>
+                    <p className='work-para1'>A Student Management System (SMS) is a comprehensive software application designed to streamline and automate administrative and academic operations within educational institutions. It acts as a centralized digital database that securely stores and manages critical student information, ranging from personal details and admission records to enrollment histories. </p>
                     {/* <button className='work-btn1'> <a style={{textDecoration:"none", color:"orangered"}} href="">View Project -{">"}</a></button> */}
-                    <a style={{textDecoration:"none", color:"orangered"}} href="#">View Project -{">"}</a>
+                    <a style={{textDecoration:"none", color:"orangered"}} href="https://github.com/aryamahajan2708/Django-Student-Management-">View Project -{">"}</a>
                 </div>
                 <div className='workitem-3'>
                     <img src="/marksheetapp.png" alt="" />
