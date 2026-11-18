@@ -1,0 +1,180 @@
+.blog{
+    width:100%;
+    padding:80px 5%;
+    box-sizing:border-box;
+}
+
+.Blog-heading{
+    font-size:45px;
+    margin-bottom:40px;
+}
+
+.blog-con{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.blog-item{
+    flex:1 1 320px;
+    max-width:360px;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s ease;
+    border:1px solid transparent;
+    background: #ffffff;
+}
+
+.blog-item:hover{
+    border-color:orangered;
+    transform:translateY(-8px);
+}
+
+.blog-img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    display:block;
+}
+
+.blog-btn1{
+    border:1px solid #ffd27a;
+    padding:6px 14px;
+    font-size:12px;
+    border-radius:30px;
+    margin:20px;
+    color:#fc6028;
+    background:#fff9e8;
+}
+
+.bloghead{
+    font-size:20px;
+    margin:0 20px 15px;
+    transition:.3s;
+}
+
+.bloghead:hover{
+    color:orangered;
+}
+
+.blog-para{
+    font-size:14px;
+    color:#666;
+    line-height:1.7;
+    margin:0 20px 20px;
+}
+
+.blog-btn2{
+    background:none;
+    border:none;
+    margin:0 20px 25px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.blog-btn2:hover{
+    color:orangered;
+}
+@media (max-width:1200px){
+
+.blog{
+    padding:70px 4%;
+}
+
+.Blog-heading{
+    font-size:40px;
+}
+
+.blog-con{
+    gap:20px;
+}
+
+.blog-item{
+    max-width:320px;
+}
+
+.blog-img{
+    height:200px;
+}
+
+.bloghead{
+    font-size:18px;
+}
+
+.blog-para{
+    font-size:14px;
+}
+
+}
+@media (max-width:992px){
+
+.blog{
+    padding:60px 4%;
+}
+
+.Blog-heading{
+    font-size:36px;
+    text-align:center;
+}
+
+.blog-item{
+    flex:1 1 45%;
+    max-width:420px;
+}
+
+.blog-img{
+    height:210px;
+}
+
+.bloghead{
+    font-size:18px;
+}
+
+.blog-para{
+    font-size:14px;
+}
+
+}
+@media (max-width:768px){
+
+.blog{
+    padding:50px 20px;
+}
+
+.Blog-heading{
+    font-size:32px;
+    text-align:center;
+}
+
+.blog-con{
+    flex-direction:column;
+    align-items:center;
+}
+
+.blog-item{
+    width:100%;
+    max-width:450px;
+}
+
+.blog-img{
+    height:220px;
+}
+
+.bloghead{
+    font-size:18px;
+}
+
+.blog-para{
+    font-size:14px;
+}
+
+.blog-btn1{
+    margin:18px;
+}
+
+.blog-btn2{
+    margin:0 18px 20px;
+}
+
+}
